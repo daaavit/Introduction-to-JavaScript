@@ -83,9 +83,9 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(dogsAge, humanAge) {
-  var dogAge = humanAge * 7;
-  return dogAge;
+function dogYears(dogage,humanYears) {
+  return humanYears * 7;
+  
 }
 
 console.log(dogYears(4, 25));
