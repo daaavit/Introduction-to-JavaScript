@@ -200,10 +200,10 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(total) {
-  var kilometers = 1.6
+function miles(kilometers) {
+  return kilometers * 0.621371
 }
-
+console.log(miles(2000))
 
 
 //Task 5b - Feet to CM
