@@ -1,5 +1,5 @@
 {
-  "name": "codegraded-project-js",
+  "name": "tutorial",
   "version": "0.0.5",
   "scripts": {
     "start": "nodemon index.js",
@@ -17,5 +17,14 @@
     "eslint": "^7.29.0",
     "jest": "^27.0.4",
     "nodemon": "^2.0.7"
-  }
+  },
+  "description": "The module challenge is the afternoon project or assignment that students work through independently. This expands on the guided project completed earlier with the instructor.",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/codegraded-project-js/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/codegraded-project-js#readme",
+  "main": "index.js",
+  "dependencies": {},
+  "author": "",
+  "license": "ISC"
 }

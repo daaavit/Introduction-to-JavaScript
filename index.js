@@ -67,7 +67,7 @@ Do the following:
 */
 
 function multiply(a, b) {
-  return a + b;
+  return a * b;
 }
 console.log(multiply(5, 8));
 
@@ -84,14 +84,11 @@ Do the following:
 */
 
 function dogYears(dogsAge, humanAge) {
-  var humanAge = 25
   var dogAge = humanAge * 7;
   return dogAge;
-
-
 }
 
-console.log(dogYears(dogYears));
+console.log(dogYears(4, 25));
 
 
 
@@ -135,7 +132,7 @@ function hungryDog(weight, age) {
     return weight * 0.10;
   } else if (age <= 1 && age >  0.333) {
     return weight * 0.04;
-  } else if (age <= 1 && age > 0.333) {
+  } else if (age <= 1 && age >= 0.333) {
   return weight * 0.05;
   }
 }
@@ -182,11 +179,11 @@ if (user === computer) {
 } else if (user === 'rock' && computer === 'paper') {
 return 'you lose';
 } else if (user === 'rock' && computer === 'scissors') {
-return "you win";
+return "you win!";
 } else if ( user === 'paper' && computer ==="rock") {
-  return "you win";
+  return "you win!";
 }else if (user === 'scissors' && computer ==="paper") {
-  return "you win";
+  return "you win!";
 }
 }
 
@@ -203,13 +200,9 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(kilometers) {
-kilometers = 1250;
-miles = kilometers / 1.6;
-return miles;
+function miles(total) {
+  var kilometers = 1.6
 }
-
-console.log(miles());
 
 
 
@@ -222,12 +215,10 @@ Using the feet function below do the following:
 */
 
 function feet(cm) {
-var cm = 1000;
-feet = cm / 30.48;
-return feet;
+return cm /30.48;
 }
 
-console.log(feet());
+console.log(feet(100));
 
 
 
@@ -267,7 +258,7 @@ Using the grade function below do the following:
 
 function grade(score) {
   if (score >= 90 && score <= 100) {
-    return "you got a A";
+    return "you got an A";
   }else if (score >=80 && score <= 89) {
     return "you got a B";
   }else if (score >=70 && score <= 79) {
@@ -275,10 +266,12 @@ function grade(score) {
   }else if (score >=60 && score <= 69) {
     return "you got a D";
   }else if (score < 60 ) {
-    return "you got a F";
+    return "you got an F";
   }
 }
 console.log(grade(96));
+
+
 
 
 /*💪💪💪💪💪💪💪💪💪💪 Stretch 💪💪💪💪💪💪💪💪💪💪*/
